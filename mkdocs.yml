@@ -1,0 +1,19 @@
+site_name: Kevin Pages
+site_url: https://USERNAME.github.io/pages/
+site_description: Retro-futuristic landing page and project hub
+
+theme:
+  name: readthedocs
+
+plugins: []
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
