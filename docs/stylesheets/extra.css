@@ -42,6 +42,11 @@ body {
   margin-left: 0 !important;
 }
 
+[role="contentinfo"],
+footer {
+  display: none !important;
+}
+
 .wy-nav-content {
   max-width: none;
   margin: 0;
@@ -118,6 +123,23 @@ body {
   padding-left: 1ch;
 }
 
+.boot-log {
+  color: var(--muted);
+  padding-left: 0.4ch;
+}
+
+.log-ok {
+  color: #7dff9c;
+}
+
+.log-warn {
+  color: #ffd56a;
+}
+
+.cursor {
+  animation: cursorBlink 1s steps(1, end) infinite;
+}
+
 a,
 .output a {
   color: var(--cyan);
@@ -160,6 +182,56 @@ code {
   color: var(--muted);
 }
 
+.dossier-shell {
+  max-width: 1180px;
+}
+
+.dossier-body {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.strong-output {
+  color: #b8ffdf;
+  text-shadow: 0 0 8px rgba(141, 255, 191, 0.34);
+}
+
+.narrative-block {
+  border-left: 2px solid var(--line);
+  margin: 0.15rem 0 0.5rem 1ch;
+  padding: 0.25rem 0 0.25rem 0.8rem;
+}
+
+.narrative-block p {
+  margin: 0.2rem 0;
+  line-height: 1.22;
+}
+
+.expertise-grid {
+  list-style: none;
+  margin: 0.2rem 0 0.55rem 1ch;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.24rem 0.9rem;
+}
+
+.expertise-grid li::before {
+  content: "> ";
+  color: var(--pink);
+}
+
+@keyframes cursorBlink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 24px;
@@ -171,5 +243,9 @@ code {
 
   .terminal-body {
     padding: 0.72rem;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr;
   }
 }

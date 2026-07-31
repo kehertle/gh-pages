@@ -9,6 +9,7 @@ plugins: []
 
 nav:
   - Home: index.md
+  - Engineer Profile: engineer-profile.md
   - Projects: projects.md
 
 extra_css:

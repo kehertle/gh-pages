@@ -4,27 +4,31 @@
       <span class="dot dot-pink"></span>
       <span class="dot dot-amber"></span>
       <span class="dot dot-cyan"></span>
-      <p class="terminal-title">kevin@neon-coast:~</p>
+      <p class="terminal-title">ttyS0 :: neon-bsp :: embedded-linux</p>
     </header>
 
     <div class="terminal-body">
-      <p><span class="prompt">kevin@neon-coast</span>:<span class="path">~</span>$ whoami</p>
-      <p class="output">Builder, tinkerer, and product engineer.</p>
+      <p class="boot-log"><span class="log-ok">[  OK  ]</span> Started Board Support Package Init Service.</p>
+      <p class="boot-log"><span class="log-ok">[  OK  ]</span> Reached target Multi-User System.</p>
+      <p class="boot-log"><span class="log-ok">[  OK  ]</span> Started RF Peripheral Validation Daemon.</p>
+      <p class="boot-log"><span class="log-ok">[  OK  ]</span> Mounted /dev/mmcblk0p2 on /.</p>
+      <p class="boot-log"><span class="log-warn">[ WARN ]</span> cpu_dma_latency set to performance mode.</p>
+      <p class="boot-log"><span class="log-ok">[  OK  ]</span> Started systemd-user-sessions.service.</p>
+      <p class="boot-log">neon-bsp login: kevin</p>
+      <p class="boot-log">Password: ********</p>
+      <p class="boot-log">Last login: Fri Jul 31 19:17:04 on ttyS0</p>
 
-      <p><span class="prompt">kevin@neon-coast</span>:<span class="path">~</span>$ cat mission.txt</p>
+      <p><span class="prompt">kevin@neon-bsp</span>:<span class="path">~</span>$ cat profile.txt</p>
       <p class="output">
-        Launchpad for projects, experiments, and the current resume.
+        Embedded software engineer focused on device drivers, firmware, hardware bring-up, and RF systems.
       </p>
 
-      <p><span class="prompt">kevin@neon-coast</span>:<span class="path">~</span>$ ls links/</p>
+      <p><span class="prompt">kevin@neon-bsp</span>:<span class="path">~</span>$ ls portfolio/</p>
       <p class="output"><a href="resume.pdf">resume.pdf</a></p>
+      <p class="output"><a href="engineer-profile/">engineer-profile/</a></p>
       <p class="output"><a href="projects/">projects/</a></p>
 
-      <p><span class="prompt">kevin@neon-coast</span>:<span class="path">~</span>$ _</p>
+      <p><span class="prompt">kevin@neon-bsp</span>:<span class="path">~</span>$ <span class="cursor">_</span></p>
     </div>
   </div>
-
-  <p class="terminal-note">
-    Drop your PDF at <code>docs/resume.pdf</code> so the resume link resolves on GitHub Pages.
-  </p>
 </section>

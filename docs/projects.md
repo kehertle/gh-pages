@@ -1,12 +1,8 @@
 # Personal Projects
 
-A curated list of projects will live here.
+Selected embedded and systems projects.
 
-## Featured
+## Featured Project
 
-- Add your first featured project
-- Add project links, tech stack, and short outcomes
-
-## In Progress
-
-- Add what you are actively building right now
+- [ESP32 Baby Event Tracker](https://github.com/kehertle/esp32-baby-event-tracker)
+- Embedded event tracking system built on ESP32 and MicroPython for logging feeding, sleep, and caregiver events.
