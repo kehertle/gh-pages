@@ -207,6 +207,21 @@ code {
   line-height: 1.22;
 }
 
+.project-block {
+  border-left: 2px solid var(--line);
+  margin: 0.12rem 0 0.55rem 1ch;
+  padding: 0.18rem 0 0.22rem 0.8rem;
+}
+
+.project-block p {
+  margin: 0.16rem 0;
+  line-height: 1.2;
+}
+
+.project-title {
+  color: #b8ffdf;
+}
+
 .expertise-grid {
   list-style: none;
   margin: 0.2rem 0 0.55rem 1ch;
