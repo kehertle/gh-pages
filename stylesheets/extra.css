@@ -9,6 +9,8 @@
   --pink: #ff4fae;
   --cyan: #4feeff;
   --amber: #ffd56a;
+  --font-base: 24px;
+  --font-mobile: 20px;
 }
 
 html,
@@ -22,7 +24,7 @@ body {
   font-family: "VT323", monospace;
   color: var(--text);
   letter-spacing: 0.04em;
-  font-size: 28px;
+  font-size: var(--font-base);
 }
 
 /* Remove ReadTheDocs navigation chrome (sidebar, mobile hamburger, search). */
@@ -182,6 +184,56 @@ code {
   color: var(--muted);
 }
 
+.home-shell {
+  max-width: 1100px;
+  margin: 1rem auto 0;
+  padding: 0.5rem 0.3rem;
+}
+
+.home-title {
+  margin: 0;
+  font-size: 2.4rem;
+  letter-spacing: 0.06em;
+}
+
+.home-subtitle {
+  margin: 0.35rem 0 1rem;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.link-card {
+  display: block;
+  border: 2px solid var(--line);
+  background: var(--panel);
+  padding: 0.7rem 0.75rem;
+  text-decoration: none;
+  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+
+.link-card h2 {
+  margin: 0 0 0.3rem;
+  color: #b8ffdf;
+}
+
+.link-card p {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.link-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(79, 238, 255, 0.8);
+  box-shadow: 0 0 14px rgba(79, 238, 255, 0.2);
+}
+
 .dossier-shell {
   max-width: 1180px;
 }
@@ -249,7 +301,7 @@ code {
 
 @media (max-width: 768px) {
   body {
-    font-size: 24px;
+    font-size: var(--font-mobile);
   }
 
   .wy-nav-content {
@@ -258,6 +310,14 @@ code {
 
   .terminal-body {
     padding: 0.72rem;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .link-grid {
+    grid-template-columns: 1fr;
   }
 
   .expertise-grid {
