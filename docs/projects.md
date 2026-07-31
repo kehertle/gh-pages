@@ -4,7 +4,7 @@
 			<span class="dot dot-pink"></span>
 			<span class="dot dot-amber"></span>
 			<span class="dot dot-cyan"></span>
-			<p class="terminal-title">ttyS1 :: projects :: embedded-linux</p>
+			<p class="terminal-title">ttyS0 :: neon-bsp :: embedded-linux</p>
 		</header>
 
 		<div class="terminal-body">
