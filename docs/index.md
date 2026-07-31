@@ -24,9 +24,12 @@
       </p>
 
       <p><span class="prompt">kevin@neon-bsp</span>:<span class="path">~</span>$ ls portfolio/</p>
-      <p class="output"><a href="resume.pdf">resume.pdf</a></p>
+      <p class="output"><a href="https://www.linkedin.com/in/kevin-hertlein-b97786a3/">linkedin/kevin-hertlein</a></p>
       <p class="output"><a href="engineer-profile/">engineer-profile/</a></p>
       <p class="output"><a href="projects/">projects/</a></p>
+
+      <p><span class="prompt">kevin@neon-bsp</span>:<span class="path">~</span>$ cat contact.txt</p>
+      <p class="output">For collaboration, opportunities, or technical discussion, reach out on LinkedIn.</p>
 
       <p><span class="prompt">kevin@neon-bsp</span>:<span class="path">~</span>$ <span class="cursor">_</span></p>
     </div>
