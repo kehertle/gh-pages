@@ -5,17 +5,16 @@
   <div class="link-grid">
     <a class="link-card" href="projects/">
       <h2>Projects</h2>
-      <p>Embedded and systems portfolio with architecture-focused writeups.</p>
-    </a>
-
-    <a class="link-card" href="engineer-profile/">
-      <h2>Engineer Profile</h2>
-      <p>Technical background, core expertise, and engineering philosophy.</p>
+      <ul>
+        <li>Embedded and systems portfolio with architecture-focused writeups.</li>
+      </ul>
     </a>
 
     <a class="link-card" href="https://www.linkedin.com/in/kevin-hertlein-b97786a3/">
       <h2>Contact</h2>
-      <p>Reach out on LinkedIn for opportunities, collaboration, or technical discussion.</p>
+      <ul>
+        <li>Reach out on LinkedIn for opportunities, collaboration, or technical discussion.</li>
+      </ul>
     </a>
   </div>
 </section>
